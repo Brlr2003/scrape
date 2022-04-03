@@ -1,0 +1,107 @@
+brand & Name
+Brand Name
+Series
+Item model number
+(Title)Gaming, Laptop, Screen Size
+unless begins with number*
+
+Screen Resolution
+(\d{3,4}) x (\d{3,4})
+1080p
+4k
+2k
+
+Screen Size
+(\d{2}\.?\d?) inches
+(\d{2}\.?\d?)inches
+(\d{2}\.?\d?)\"
+
+Dimensions
+(\d{1,2}\.?\d*) x?-? ?(\d{1,2}\.?\d*) x?-? ?(\d\.?\d*)
+
+Weight
+(\d{1,2}\.?\d{0,2}) (pounds|lb|Pounds|LB)
+(\d{1,2}\.?\d*) lb
+
+
+GPU
+Graphics Coprocessor
+
+
+CPU
+Processor Brand
+Processor
+
+
+RAM
+(\d)GB DDR4
+(\d) GB
+(\d{2}) GB
+(\d{4}) MHz
+DDR3
+DDR4
+DDR5
+Memory RAM:
+
+Storage
+(\d{3})GB
+(\d{3}) GB
+(\d)TB
+(\d) TB
+SSD
+HDD
+Storage Drive:
+
+if((\d) GB)
+then
+(\d{2}) GB
+(\d{2})GB
+
+
+wifi
+802.11([acbgn/ ]+)
+
+Bluetooth
+Bluetooth (\d\.?\d?)
+Bluetooth
+
+webcam
+HD webcam
+VGA webcam
+
+OS
+Operating System
+Windows (\d{1,2}\.?\d?) ?([HomeSPro]*)
+Mac ?(OS) ?([X])
+
+Keyboard
+Backlit Keyboard
+
+touchScreen
+Touch Screen
+
+batteryHours
+(\d{1,2})[ -][hH]ours
+
+batteryDetails
+(\d)[- ][Cc]ell
+(\d+)[- ][WwHhRr]{3}
+(Lithium-ion|Li-ion|Li-polymer|Lithium-ion polymer)
+
+Ports
+(\d) (x |- |)USB (\d\.\ ?\d|C)
+(\d) - USB 3. 0
+(\d) x USB 3.0
+(\d) USB 3.0
+(\d) USB 3.1
+(\d) USB 2.0
+Number of USB 2.0 Ports (\d)
+(\d) USB C
+SD card reader
+SD media card reader
+HDMI
+Mini Display
+VGA
+
+ignore
+expandable to (\d+)GB
